@@ -18,3 +18,19 @@ thread1 returns: 100
 thread2 returns: 100
 
 ````
+_____________________________________
+```
+gcc -pthread -o pthreadsimple3 pthreadsimple3.c
+
+```
+
+```
+ubuntu@ip-xxx-xx-xx-xx:~/programming$ ./pthreadsimple3
+Thread1 start
+Thread1 end
+thread1 returns: 100
+Thread2 start
+Thread2 end
+
+
+````
