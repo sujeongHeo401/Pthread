@@ -1,6 +1,7 @@
-# pthread
+# Pthread
 simple pthread exercise with C
 
+![image](https://user-images.githubusercontent.com/86057499/149612129-93dacaee-8199-4017-8506-63afef6a011a.png)
 
 ## gcc compile with pthread
 ```
