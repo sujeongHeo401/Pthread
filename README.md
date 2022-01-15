@@ -5,10 +5,7 @@ simple pthread exercise with C
 
 ## gcc compile with pthread
 ```
-gcc -pthread -o pthreadsimple pthreadsimple.c
-```
-
-```
+$gcc -pthread -o pthreadsimple pthreadsimple.c
 ubuntu@ip-xxx-xx-xx-xx:~/programming$ ./pthreadsimple
 0pthread_create retruns 0
 pthread_create returns 0
@@ -20,11 +17,7 @@ thread2 returns: 100
 ````
 _____________________________________
 ```
-gcc -pthread -o pthreadsimple3 pthreadsimple3.c
-
-```
-
-```
+$gcc -pthread -o pthreadsimple3 pthreadsimple3.c
 ubuntu@ip-xxx-xx-xx-xx:~/programming$ ./pthreadsimple3
 Thread1 start
 Thread1 end
@@ -32,5 +25,15 @@ thread1 returns: 100
 Thread2 start
 Thread2 end
 
+````
+_____________________________________
+```
+$gcc -pthread -o pthreadsimple4 pthreadsimple4.c
+ubuntu@ip-xxx-xx-xx-xx:~/programming$ ./pthreadsimple4
+Thread2 start
+Thread1 start
+Thread2 end
+thread2 returns: 100
+Thread1 end
 
 ````
